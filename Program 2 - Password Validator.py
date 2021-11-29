@@ -13,3 +13,6 @@
 # Steps
 # 1. Import re.
 import re
+
+# 2. Ask the user for the password.
+userPassword = input("Enter the password: ")
