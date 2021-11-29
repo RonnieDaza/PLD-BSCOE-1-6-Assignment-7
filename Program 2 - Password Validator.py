@@ -28,3 +28,5 @@ if len(userPassword)<16:
     passwordError = 1
 # 7. Test if the password does not contain uppercase letters.
 elif not re.search("[A-Z]", userPassword):
+    # 8. If it is true, then print a message to the user stating the error.
+    print("Sorry, the password must contain at least one capital letter (A-Z).")
