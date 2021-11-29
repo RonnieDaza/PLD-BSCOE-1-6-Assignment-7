@@ -16,3 +16,6 @@ import re
 
 # 2. Ask the user for the password.
 userPassword = input("Enter the password: ")
+
+# 3. Set the passwordError variable to 0.
+passwordError = 0
