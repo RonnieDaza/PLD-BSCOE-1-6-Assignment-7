@@ -21,3 +21,6 @@ for letter in userSentence:
     if letter == " ":
         # 5. If the word is tested as a true word, add 1 to the wordCount.
         wordCount = wordCount+1
+
+# 6. Save the wordCount with +1 to the totalWords so that it can display the total words.
+totalWords = wordCount+1
