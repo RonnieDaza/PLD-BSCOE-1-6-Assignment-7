@@ -36,3 +36,5 @@ consonantLettersCount = 0
 
 # 11. Create a for loop to count the letters in the given sentence.
 for everyVowelLetters in range(0, len(userSentence)):
+    # 12. Test if the letter is not equal to " " so that the " " can not be included in the count.
+    if userSentence[everyVowelLetters] != " ":
