@@ -29,5 +29,5 @@ totalWords = wordCount+1
 print("The word count is: ", totalWords)
 
 # 8. Moving on, we now need to count the vowels and letters in the given sentence.
-# 9. Set the vowelLettersCount to 0.
+# 9. Set the vowelLettersCount variable to 0.
 vowelLettersCount = 0
