@@ -33,3 +33,6 @@ print("The word count is: ", totalWords)
 vowelLettersCount = 0
 # 10. Set the consonantLettersCount variable to 0.
 consonantLettersCount = 0
+
+# 11. Create a for loop to count the letters in the given sentence.
+for everyVowelLetters in range(0, len(userSentence)):
