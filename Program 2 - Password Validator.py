@@ -19,3 +19,6 @@ userPassword = input("Enter the password: ")
 
 # 3. Set the passwordError variable to 0.
 passwordError = 0
+
+# 4. Test if the password is not greater than 15 letters.
+if len(userPassword)<16:
