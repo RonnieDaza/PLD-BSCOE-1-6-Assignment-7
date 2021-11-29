@@ -22,3 +22,5 @@ passwordError = 0
 
 # 4. Test if the password is not greater than 15 letters.
 if len(userPassword)<16:
+    # 5. If it is true, then print a message to the user stating the error.
+    print("Sorry, the password must be greater than 15 letters.")
