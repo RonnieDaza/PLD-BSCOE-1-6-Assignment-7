@@ -12,15 +12,15 @@
 # 1. Ask the user for the desired sentence.
 userSentence = input("Enter your desired sentece: ")
 
-# 2. Set the wordCount to 0.
+# 2. Set the wordCount variable to 0.
 wordCount = 0
 
 # 3. Create a for loop to count the words in the given sentence.
 for letter in userSentence:
     # 4. Test if the letter is equal to " " to signify that the word is a true word.
     if letter == " ":
-        # 5. If the word is tested as a true word, add 1 to the wordCount.
+        # 5. If the word is tested as a true word, add 1 to the wordCount variable.
         wordCount = wordCount+1
 
-# 6. Save the wordCount with +1 to the totalWords so that it can display the total words.
+# 6. Save the wordCount with +1 to the totalWords variable so that it can display the final total words.
 totalWords = wordCount+1
