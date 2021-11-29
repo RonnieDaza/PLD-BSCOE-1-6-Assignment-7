@@ -19,3 +19,5 @@ wordCount = 0
 for letter in userSentence:
     # 4. Test if the letter is equal to " " to signify that the word is a true word.
     if letter == " ":
+        # 5. If the word is tested as a true word, add 1 to the wordCount.
+        wordCount = wordCount+1
