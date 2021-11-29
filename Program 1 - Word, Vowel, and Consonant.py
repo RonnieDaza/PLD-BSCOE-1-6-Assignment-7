@@ -38,3 +38,5 @@ consonantLettersCount = 0
 for everyVowelLetters in range(0, len(userSentence)):
     # 12. Test if the letter is not equal to " " so that the " " can not be included in the count.
     if userSentence[everyVowelLetters] != " ":
+        # 13. Test if the letter is a, e, i, o, or u if lowercase letters or , A, E, I, O, or U if uppercase letters.
+        if userSentence[everyVowelLetters] == "a" or userSentence[everyVowelLetters] == "e" or userSentence[everyVowelLetters] == "i" or userSentence[everyVowelLetters] == "o" or userSentence[everyVowelLetters] == "u" or userSentence[everyVowelLetters] == "A" or userSentence[everyVowelLetters] == "E" or userSentence[everyVowelLetters] == "I" or userSentence[everyVowelLetters] == "O" or userSentence[everyVowelLetters] == "U":
