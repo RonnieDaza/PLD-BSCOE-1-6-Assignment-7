@@ -44,3 +44,6 @@ elif not re.search("[ !@#$%^&*()_+=~`:;'<,>.?{[}|/-]", userPassword): # Excluded
     print("Sorry, the password must contain at least one special character ( !@#$%^&*()_+=~`:;'<,>.?{[}|/-).")
     # 15. Because there is an error present, the passwordError variable becomes 1.
     passwordError = 1
+
+# 16. If the password does not match any conditions presented above, then the passwordError = 0 which means that the password is valid.
+if (passwordError == 0):
