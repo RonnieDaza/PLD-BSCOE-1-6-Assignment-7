@@ -26,3 +26,5 @@ if len(userPassword)<16:
     print("Sorry, the password must be greater than 15 letters.")
     # 6. Because there is an error present, the passwordError variable becomes 1.
     passwordError = 1
+# 7. Test if the password does not contain uppercase letters.
+elif not re.search("[A-Z]", userPassword):
