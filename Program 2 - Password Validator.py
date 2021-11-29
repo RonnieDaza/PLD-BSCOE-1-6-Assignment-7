@@ -24,3 +24,5 @@ passwordError = 0
 if len(userPassword)<16:
     # 5. If it is true, then print a message to the user stating the error.
     print("Sorry, the password must be greater than 15 letters.")
+    # 6. Because there is an error present, the passwordError variable becomes 1.
+    passwordError = 1
