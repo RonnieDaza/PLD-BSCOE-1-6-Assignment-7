@@ -14,3 +14,6 @@ userSentence = input("Enter your desired sentece: ")
 
 # 2. Set the wordCount to 0.
 wordCount = 0
+
+# 3. Create a for loop to count the words in the sentenced.
+for letter in userSentence:
