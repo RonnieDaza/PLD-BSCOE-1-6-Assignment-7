@@ -32,3 +32,5 @@ elif not re.search("[A-Z]", userPassword):
     print("Sorry, the password must contain at least one capital letter (A-Z).")
     # 9. Because there is an error present, the passwordError variable becomes 1.
     passwordError = 1
+# 10. Test if the password does not contain numbers.
+elif not re.search("[0-9]", userPassword):
