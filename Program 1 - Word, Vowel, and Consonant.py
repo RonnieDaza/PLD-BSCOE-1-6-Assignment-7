@@ -24,3 +24,6 @@ for letter in userSentence:
 
 # 6. Save the wordCount with +1 to the totalWords variable so that it can display the final total words.
 totalWords = wordCount+1
+
+# 7. Print the total words counted in the given sentence.
+print("The word count is: ", totalWords)
