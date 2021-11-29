@@ -34,3 +34,5 @@ elif not re.search("[A-Z]", userPassword):
     passwordError = 1
 # 10. Test if the password does not contain numbers.
 elif not re.search("[0-9]", userPassword):
+    # 11. If it is true, then print a message to the user stating the error.
+    print("Sorry, the password must contain at least one number (0-9).")
