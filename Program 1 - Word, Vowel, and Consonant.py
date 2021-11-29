@@ -17,3 +17,5 @@ wordCount = 0
 
 # 3. Create a for loop to count the words in the given sentence.
 for letter in userSentence:
+    # 4. Test if the letter is equal to " " to signify that the word is a true word.
+    if letter == " ":
