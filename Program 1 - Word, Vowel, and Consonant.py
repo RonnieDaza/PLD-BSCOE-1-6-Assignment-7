@@ -50,3 +50,6 @@ for everyVowelLetters in range(0, len(userSentence)):
 print("The vowel letter count is: ", vowelLettersCount)
 # 17. Print the consonant letter count in the given sentence.
 print("The consonant letter count is: ", consonantLettersCount)
+
+# 18. Print the concluding message.
+print("Thank you for using this program.")
