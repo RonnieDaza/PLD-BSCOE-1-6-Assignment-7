@@ -11,3 +11,6 @@
 # Steps
 # 1. Ask the user for the desired sentence.
 userSentence = input("Enter your desired sentece: ")
+
+# 2. Set the wordCount to 0.
+wordCount = 0
