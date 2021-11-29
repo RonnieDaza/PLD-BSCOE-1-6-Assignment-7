@@ -45,3 +45,6 @@ for everyVowelLetters in range(0, len(userSentence)):
         else:
             # 15. If the nothing matches the description, then the letter is a consonant. Add 1 to the consonantLettersCount variable.
             consonantLettersCount = consonantLettersCount+1
+
+# 16. Print the vowel letter count in the given sentence.
+print("The vowel letter count is: ", vowelLettersCount)
