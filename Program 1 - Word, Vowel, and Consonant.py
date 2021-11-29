@@ -42,3 +42,6 @@ for everyVowelLetters in range(0, len(userSentence)):
         if userSentence[everyVowelLetters] == "a" or userSentence[everyVowelLetters] == "e" or userSentence[everyVowelLetters] == "i" or userSentence[everyVowelLetters] == "o" or userSentence[everyVowelLetters] == "u" or userSentence[everyVowelLetters] == "A" or userSentence[everyVowelLetters] == "E" or userSentence[everyVowelLetters] == "I" or userSentence[everyVowelLetters] == "O" or userSentence[everyVowelLetters] == "U":
             # 14. If the letter is correct, add 1 to the vowelLettersCount variable.
             vowelLettersCount = vowelLettersCount+1
+        else:
+            # 15. If the nothing matches the description, then the letter is a consonant. Add 1 to the consonantLettersCount variable.
+            consonantLettersCount = consonantLettersCount+1
