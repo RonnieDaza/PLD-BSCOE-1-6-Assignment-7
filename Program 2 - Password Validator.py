@@ -38,3 +38,5 @@ elif not re.search("[0-9]", userPassword):
     print("Sorry, the password must contain at least one number (0-9).")
     # 12. Because there is an error present, the passwordError variable becomes 1.
     passwordError = 1
+# 13. Test if the password does not contain special characters.
+elif not re.search("[ !@#$%^&*()_+=~`:;'<,>.?{[}|/-]", userPassword): # Excluded: "\] because these special characters disrupt the choices.
