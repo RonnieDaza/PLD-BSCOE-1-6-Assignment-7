@@ -47,3 +47,5 @@ elif not re.search("[ !@#$%^&*()_+=~`:;'<,>.?{[}|/-]", userPassword): # Excluded
 
 # 16. If the password does not match any conditions presented above, then the passwordError = 0 which means that the password is valid.
 if (passwordError == 0):
+    # 17. Print a message that states that the password is valid and show the valid password.
+    print("The password is valid: ", userPassword)
