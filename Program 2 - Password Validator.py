@@ -42,3 +42,5 @@ elif not re.search("[0-9]", userPassword):
 elif not re.search("[ !@#$%^&*()_+=~`:;'<,>.?{[}|/-]", userPassword): # Excluded: "\] because these special characters disrupt the choices.
     # 14. If it is true, then print a message to the user stating the error.
     print("Sorry, the password must contain at least one special character ( !@#$%^&*()_+=~`:;'<,>.?{[}|/-).")
+    # 15. Because there is an error present, the passwordError variable becomes 1.
+    passwordError = 1
