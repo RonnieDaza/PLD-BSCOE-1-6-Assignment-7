@@ -50,6 +50,6 @@ if (passwordError == 0):
     # 17. Print a message that states that the password is valid and show the valid password.
     print("The password is valid: ", userPassword)
 else:
-    # 18. If the password matches one or more conditions presented above, then the passwordError = 1 which means that the password is invalid.
+    # 18. If the password matches any conditions presented above, then the passwordError = 1 which means that the password is invalid.
     # 19. Print a message that states that the password is invalid and the user must try again.
     print("The password is invalid. Please try again.")
